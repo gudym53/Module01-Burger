@@ -39,7 +39,7 @@ header {
 }
 
 .header-nav a {
-   font-weight: 600px;
+   font-weight: 600;
    font-size: 20px;
    color: #443737;
    text-decoration: none;
@@ -178,9 +178,10 @@ header {
    font-size: 60px;
    line-height: 76px;
    color: #FFFFFF;
+   font-weight: 900;
 }
 
-span 2 {
+.banner-title span {
    width: 95px;
    height: 28px;
    border-radius: 14px;
@@ -195,14 +196,43 @@ span 2 {
    color: #FAF9F9;
    width: 350px;
    margin-bottom: 40px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   line-height: 160%;
+   max-width: 320px;
 }
 
 .banner-link {
    text-decoration: none;
    color: #1E2F40;
    background-color: #FFC725;
-   width: 170px;
-   height: 66.5;
    padding: 10px 25px;
+   border-radius: 5px;
+}
+
+.menu-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu-title {
+   font-size: 44px;
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #1B2A49;;
+}
+
+.menu-select {
+   border: 1px solid #DEDEDE;
+   padding: 10px 30px;
+   border-radius: 22px;
+   color:  #443737;
+   font-size: 15px;
+   appearance: none;
+   flex-basis: 279px;
+   background-image: url(../images/arrow.svg);
+   background-size: 12.79px 7.75px;
+   background-repeat: no-repeat;background-position: 95% center;
 }
 
