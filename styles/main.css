@@ -166,7 +166,10 @@ header {
 
 .banner-box {
    background-image: url(../images/img.png);
-   padding: 100px 274px 100px 100px;
+   padding: 100px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
 }
 
 .banner-title {
@@ -177,7 +180,7 @@ header {
    color: #FFFFFF;
 }
 
-span {
+span 2 {
    width: 95px;
    height: 28px;
    border-radius: 14px;
