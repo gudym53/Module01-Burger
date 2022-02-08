@@ -247,3 +247,48 @@ header {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
 }
+
+.menu-grid-title {
+   font-size: 30px;
+   font-weight: 600;
+   color:  #1B2A49;
+   text-align: center; 
+}
+
+.menu-grid-price {
+   font-size: 30px;
+   font-weight: 700;
+   color: #979797;
+   text-align: center;
+   background-size: 18px, 18px;
+   background-repeat: no-repeat;
+}
+
+.menu-grid-btn {
+   width: 152px;
+   height:  38px;
+   background: #FBB731;
+   border-radius: 5px;
+   border: 1px solid #FBB731;
+   margin-left: 115px;
+   margin-bottom: 25px;
+   background-image: url(../images/menu/cart-menu.svg);
+   background-size: 18px 18px;
+   background-repeat: no-repeat;
+   background-position: 15% center;
+}
+
+.menu-grid-icon {
+   color: #FFC725;
+   background-size: 18px 18px;
+   background-image: url(../images/menu/cart-menu.svg);
+   background-size: 18px 18px;
+   background-repeat: no-repeat;
+}
+
+.menu-grid-text {
+   width: 70px;
+   color: #1E2F40;
+   text-transform: uppercase;
+   font-weight: 700;
+}
