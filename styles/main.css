@@ -18,7 +18,7 @@ header {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding-top: 26px;
+   padding-top: 28px;
    padding-bottom: 25px;
 }
 
@@ -26,7 +26,7 @@ header {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   flex-basis: 69%;
+   flex-basis: 68.5%;
 }
 
 .header-logo {
@@ -41,7 +41,7 @@ header {
 .header-nav {
    list-style-type: none;
    display: flex;
-   padding-left: 0;
+   padding-left: 0 15px;
    gap: 46px;
 }
 
@@ -84,7 +84,7 @@ header {
 }
 
 .button-count {
-   font-weight: bold;
+   font-weight: 700;
    font-size: 13px;
    color: #FFFFFF;
    background: #F37335;
@@ -116,11 +116,11 @@ header {
 
 .breadcrumbs {
    padding-left: 0;
-   margin-top: 0;
+   margin: 0;
    list-style-type: none;
    display: flex;
    justify-content: center;
-   gap: 20px 50px;
+   gap: 7px;
 }
 
 .breadcrumbs a {
@@ -138,7 +138,7 @@ header {
 .breadcrumbs a::before {
    content: '/';
    position: relative;
-   left: -5px;
+   left: -3px;
    pointer-events: none;
 }
 
@@ -157,7 +157,7 @@ header {
 .title {
    font-weight: 700;
    font-size: 79px;
-   margin-top: 10px;
+   margin-top: 18px;
    margin-bottom: 21px;
 }
 
@@ -173,7 +173,7 @@ header {
 
 .banner-box {
    background-image: url(../images/img.png);
-   padding: 100px 100px 120px;
+   padding: 100px 100px 100px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -199,13 +199,14 @@ header {
    font-weight: 600;
    display: block;
    text-align: center;
-   margin-bottom: 9px;
+   margin-bottom: 0px;
 }
 
 .banner-text {
    color: #FAF9F9;
    width: 350px;
-   margin-bottom: 40px;
+   margin-top: 0;
+   margin-bottom: 30px;
    font-family: 'Open Sans', sans-serif;
    font-size: 15px;
    line-height: 160%;
@@ -232,6 +233,7 @@ header {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   margin-bottom: 35px;
 }
 
 .menu-title {
@@ -266,16 +268,18 @@ header {
    font-size: 30px;
    font-weight: 600;
    color:  #1B2A49;
-   text-align: center; 
+   text-align: center;
+   margin: 19px 0 10px 0; 
 }
 
 .menu-grid-price {
-   font-size: 30px;
+   font-size: 20px;
    font-weight: 700;
    color: #979797;
    text-align: center;
    background-size: 18px, 18px;
    background-repeat: no-repeat;
+   margin: 0 0 17px 0;
 }
 
 .menu-grid-btn {
@@ -284,12 +288,12 @@ header {
    background: #FBB731;
    border-radius: 5px;
    border: 1px solid #FBB731;
-   margin-left: 115px;
-   margin-bottom: 125px;
+   margin-left: 112px;
+   margin-bottom: 123px;
    background-image: url(../images/menu/cart-menu.svg);
    background-size: 18px 18px;
    background-repeat: no-repeat;
-   background-position: 15% center;
+   background-position: 17% center;
 }
    
    .menu-grid-icon {
@@ -308,19 +312,19 @@ header {
 
 .container-dishes {
    margin-top: 100px;
-   width: 1181px;
+   width: 1180px;
 }
 
 .footer {
    background: #1E2F40;
    color: #fff;
-   padding: 117px 41.5px 106px 41.5px;
-   padding-bottom: 106px;
 }
 
 .footer-box {
    display: flex;
    justify-content: space-between;
+   padding: 100px 41.5px 90px 41.5px;
+   padding-bottom: 106px;
 }
 
 .footer-logo {
@@ -363,6 +367,7 @@ header {
 }
 
 .footer-list-tel li {
+   display: flexbox;
    margin-bottom: 12px;
 }
 
