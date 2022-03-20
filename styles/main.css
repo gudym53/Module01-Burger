@@ -327,36 +327,38 @@ header {
 .footer {
    background: #1E2F40;
    color: #fff;
+   padding-top: 117px;
+   padding-bottom: 106px;
 }
 
 .footer-box {
    display: flex;
    justify-content: space-between;
-   padding: 100px 41.5px 90px 41.5px;
-   padding-bottom: 106px;
 }
 
 .footer-logo {
    width: 63px;
    height: 56px;
 }
+
 .footer-item {
    flex: 0 0 auto;
 }
 
-.footer-list a {
-   color: #DEDEDE;
-   text-decoration: none;
-   font-weight: 400;
-}
-.footer-item h2 {
+
+.item h2 {
    font-size: 20px;
    font-weight: 800;
    text-transform: uppercase;
-   margin-bottom: 19px;
+   margin-bottom: 12px;
 }
 
-.footer-list li {
+.item ul,
+.tel ul {
+   list-style-type: none;
+}
+
+.item li {
    margin-bottom: 9px;
    font-family: 'Open Sans', sans-serif;
    font-size: 15px;
@@ -365,18 +367,24 @@ header {
    line-height: 24px;
 }
 
-.footer-item span {
+.item a {
+   color: #DEDEDE;
+   text-decoration: none;
+   font-weight: 400;
+}
+
+.item span {
    color: #DEDEDE;
    display: block;
    font-weight: 400;
    margin-bottom: 2px;
 }
-.footer-list-tel {
-   margin-top: 0;
+.tel ul {
+   font-size: 20px;
+   color: #FBB731;
 }
 
-.footer-list-tel li {
-   display: flexbox;
+.tel li {
    margin-bottom: 12px;
 }
 
