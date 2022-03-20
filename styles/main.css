@@ -319,11 +319,6 @@ header {
    font-weight: 700;
 }
 
-.container-dishes {
-   margin-top: 100px;
-   width: 1180px;
-}
-
 .footer {
    background: #1E2F40;
    color: #fff;
@@ -346,19 +341,16 @@ header {
 }
 
 
-.item h2 {
+.footer-item h2 {
    font-size: 20px;
    font-weight: 800;
    text-transform: uppercase;
-   margin-bottom: 12px;
+   margin-bottom: 19px;
+   margin-top: 0;
 }
 
-.item ul,
-.tel ul {
-   list-style-type: none;
-}
 
-.item li {
+.footer-item li {
    margin-bottom: 9px;
    font-family: 'Open Sans', sans-serif;
    font-size: 15px;
@@ -367,24 +359,26 @@ header {
    line-height: 24px;
 }
 
-.item a {
+.footer-item a {
    color: #DEDEDE;
    text-decoration: none;
    font-weight: 400;
 }
 
-.item span {
+.footer-item span {
    color: #DEDEDE;
    display: block;
    font-weight: 400;
    margin-bottom: 2px;
 }
-.tel ul {
+.footer-tel ul {
    font-size: 20px;
+   font-weight: 900;
    color: #FBB731;
+   margin-top: 0;
 }
 
-.tel li {
+.footer-tel li {
    margin-bottom: 12px;
 }
 
@@ -393,6 +387,11 @@ header {
    font-size: 20px;
    font-weight: 900;
    margin-top: 0;
+}
+
+.footer-list {
+   padding-left: 0;
+   list-style-type: none;
 }
 
 .footer-list {
