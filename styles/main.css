@@ -370,6 +370,11 @@ header {
    font-weight: 400;
 }
 
+.footer-list a:hover {
+   cursor: pointer;
+   color: #FBB731;
+}
+
 .footer-item span {
    color: #DEDEDE;
    display: block;
