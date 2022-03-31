@@ -399,6 +399,11 @@ header {
    margin-top: 0;
 }
 
+.footer-list-tel a:hover {
+   cursor: pointer;
+   color: #DEDEDE;
+}
+
 .footer-list {
    padding-left: 0;
    list-style-type: none;
