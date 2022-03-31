@@ -294,6 +294,11 @@ header {
    background-position: 17% center;
    gap: 9px;
 }
+
+.menu-grid-btn:hover {
+   background-color: #F37335;
+   cursor: pointer;
+}
    
    .menu-grid-icon {
    display: block;
